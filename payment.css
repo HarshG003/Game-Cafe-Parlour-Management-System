@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(img/AC.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+h3.title {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputbox {
+    margin-bottom: 15px;
+}
+
+.inputbox span {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.inputbox input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.inputbox input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.submit-btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background: #0056b3;
+}
+
+/* Enhanced style for the Payable Amount section */
+#payable-container {
+    margin-top: 20px;
+    background: #e9f7fd;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#payable {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: #333;
+    width: 100px;
+    /* Fixed width for the amount display */
+    text-align: right;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+.qrcode {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px dashed #007BFF;
+    border-radius: 10px;
+    background: #f0f8ff;
+}

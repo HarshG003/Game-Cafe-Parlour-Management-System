@@ -1,0 +1,1 @@
+create a webpage, which has functionality that it will fetch customers information from users table ( uname, email ), and fetch phone no from tmt table ( phone )
